@@ -12,6 +12,7 @@
 		52494BF4299B7644002D3B64 /* PixelWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494BF3299B7644002D3B64 /* PixelWatch.swift */; };
 		52494BF6299B7653002D3B64 /* GooglePixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494BF5299B7653002D3B64 /* GooglePixel.swift */; };
 		52494BF8299B769E002D3B64 /* GoogleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494BF7299B769E002D3B64 /* GoogleFactory.swift */; };
+		52494BFA299B956B002D3B64 /* AbstractFactoryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494BF9299B956B002D3B64 /* AbstractFactoryClient.swift */; };
 		5298B6872990EA29003245B0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298B6862990EA29003245B0 /* main.swift */; };
 		5298B695299112F2003245B0 /* ElectronicGadgetFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298B694299112F2003245B0 /* ElectronicGadgetFactory.swift */; };
 		5298B69729911379003245B0 /* AppleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298B69629911379003245B0 /* AppleFactory.swift */; };
@@ -38,6 +39,7 @@
 		52494BF3299B7644002D3B64 /* PixelWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelWatch.swift; sourceTree = "<group>"; };
 		52494BF5299B7653002D3B64 /* GooglePixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePixel.swift; sourceTree = "<group>"; };
 		52494BF7299B769E002D3B64 /* GoogleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleFactory.swift; sourceTree = "<group>"; };
+		52494BF9299B956B002D3B64 /* AbstractFactoryClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryClient.swift; sourceTree = "<group>"; };
 		5298B6832990EA29003245B0 /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		5298B6862990EA29003245B0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5298B694299112F2003245B0 /* ElectronicGadgetFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicGadgetFactory.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				52494BF1299B7545002D3B64 /* SmartWatch.swift */,
 				52494BF3299B7644002D3B64 /* PixelWatch.swift */,
 				52494BF5299B7653002D3B64 /* GooglePixel.swift */,
+				52494BF9299B956B002D3B64 /* AbstractFactoryClient.swift */,
 			);
 			path = "Abstract Factory";
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5298B699299113AB003245B0 /* Phone.swift in Sources */,
+				52494BFA299B956B002D3B64 /* AbstractFactoryClient.swift in Sources */,
 				52494BF2299B7545002D3B64 /* SmartWatch.swift in Sources */,
 				5298B69729911379003245B0 /* AppleFactory.swift in Sources */,
 				52494BF6299B7653002D3B64 /* GooglePixel.swift in Sources */,
