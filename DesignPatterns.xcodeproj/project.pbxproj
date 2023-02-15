@@ -13,6 +13,12 @@
 		52494BF6299B7653002D3B64 /* GooglePixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494BF5299B7653002D3B64 /* GooglePixel.swift */; };
 		52494BF8299B769E002D3B64 /* GoogleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494BF7299B769E002D3B64 /* GoogleFactory.swift */; };
 		52494BFA299B956B002D3B64 /* AbstractFactoryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494BF9299B956B002D3B64 /* AbstractFactoryClient.swift */; };
+		52494BFD299B966D002D3B64 /* FactoryPatternClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494BFC299B966D002D3B64 /* FactoryPatternClient.swift */; };
+		52494C00299CA60B002D3B64 /* PaymentGatewayFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494BFF299CA60B002D3B64 /* PaymentGatewayFactory.swift */; };
+		52494C02299CA664002D3B64 /* StripeGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C01299CA664002D3B64 /* StripeGateway.swift */; };
+		52494C04299CA83E002D3B64 /* AvailableGateways.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C03299CA83E002D3B64 /* AvailableGateways.swift */; };
+		52494C06299CAC9F002D3B64 /* PaymentGateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C05299CAC9F002D3B64 /* PaymentGateable.swift */; };
+		52494C08299CAF31002D3B64 /* PaypalGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C07299CAF31002D3B64 /* PaypalGateway.swift */; };
 		5298B6872990EA29003245B0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298B6862990EA29003245B0 /* main.swift */; };
 		5298B695299112F2003245B0 /* ElectronicGadgetFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298B694299112F2003245B0 /* ElectronicGadgetFactory.swift */; };
 		5298B69729911379003245B0 /* AppleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298B69629911379003245B0 /* AppleFactory.swift */; };
@@ -40,6 +46,12 @@
 		52494BF5299B7653002D3B64 /* GooglePixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePixel.swift; sourceTree = "<group>"; };
 		52494BF7299B769E002D3B64 /* GoogleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleFactory.swift; sourceTree = "<group>"; };
 		52494BF9299B956B002D3B64 /* AbstractFactoryClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryClient.swift; sourceTree = "<group>"; };
+		52494BFC299B966D002D3B64 /* FactoryPatternClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryPatternClient.swift; sourceTree = "<group>"; };
+		52494BFF299CA60B002D3B64 /* PaymentGatewayFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentGatewayFactory.swift; sourceTree = "<group>"; };
+		52494C01299CA664002D3B64 /* StripeGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeGateway.swift; sourceTree = "<group>"; };
+		52494C03299CA83E002D3B64 /* AvailableGateways.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableGateways.swift; sourceTree = "<group>"; };
+		52494C05299CAC9F002D3B64 /* PaymentGateable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentGateable.swift; sourceTree = "<group>"; };
+		52494C07299CAF31002D3B64 /* PaypalGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaypalGateway.swift; sourceTree = "<group>"; };
 		5298B6832990EA29003245B0 /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		5298B6862990EA29003245B0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5298B694299112F2003245B0 /* ElectronicGadgetFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicGadgetFactory.swift; sourceTree = "<group>"; };
@@ -60,6 +72,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52494BFB299B965C002D3B64 /* FactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				52494BFC299B966D002D3B64 /* FactoryPatternClient.swift */,
+				52494C07299CAF31002D3B64 /* PaypalGateway.swift */,
+				52494BFF299CA60B002D3B64 /* PaymentGatewayFactory.swift */,
+				52494C05299CAC9F002D3B64 /* PaymentGateable.swift */,
+				52494C01299CA664002D3B64 /* StripeGateway.swift */,
+				52494C03299CA83E002D3B64 /* AvailableGateways.swift */,
+			);
+			path = FactoryPattern;
+			sourceTree = "<group>";
+		};
 		5298B67A2990EA29003245B0 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +139,7 @@
 		5298B68F29910E90003245B0 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				52494BFB299B965C002D3B64 /* FactoryPattern */,
 				5298B68E29910E82003245B0 /* Abstract Factory */,
 			);
 			path = Creational;
@@ -185,10 +211,16 @@
 				5298B69B299113F5003245B0 /* iPhone.swift in Sources */,
 				5298B6872990EA29003245B0 /* main.swift in Sources */,
 				52494BF4299B7644002D3B64 /* PixelWatch.swift in Sources */,
+				52494C04299CA83E002D3B64 /* AvailableGateways.swift in Sources */,
+				52494C02299CA664002D3B64 /* StripeGateway.swift in Sources */,
+				52494BFD299B966D002D3B64 /* FactoryPatternClient.swift in Sources */,
 				5298B69D29911492003245B0 /* Preference.swift in Sources */,
 				52494BF8299B769E002D3B64 /* GoogleFactory.swift in Sources */,
+				52494C06299CAC9F002D3B64 /* PaymentGateable.swift in Sources */,
+				52494C00299CA60B002D3B64 /* PaymentGatewayFactory.swift in Sources */,
 				5298B695299112F2003245B0 /* ElectronicGadgetFactory.swift in Sources */,
 				52494BF0299B723C002D3B64 /* AppleWatch.swift in Sources */,
+				52494C08299CAF31002D3B64 /* PaypalGateway.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

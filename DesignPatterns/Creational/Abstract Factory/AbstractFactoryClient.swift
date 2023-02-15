@@ -9,7 +9,7 @@ import Foundation
 struct AbstractFactoryClient {
     func execute() {
         print("Abstract Factory")
-        print("================")
+        print("=========================")
         let apple : Brand = .apple
         let google : Brand = .google
         
@@ -30,5 +30,7 @@ struct AbstractFactoryClient {
         
         digitalWatch1.navigate()
         digitalWatch2.navigate()
+        print("=========================")
+
     }
 }
