@@ -9,3 +9,4 @@ import Foundation
 AbstractFactoryClient().execute()
 FactoryPatternClient().execute()
 BuilderPatternClient().execute()
+SingletonPatternClient().execute()

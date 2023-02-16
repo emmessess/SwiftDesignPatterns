@@ -27,6 +27,7 @@
 		52494C16299DE8EA002D3B64 /* Sauce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C15299DE8EA002D3B64 /* Sauce.swift */; };
 		52494C18299DEA2B002D3B64 /* SubwayBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C17299DEA2B002D3B64 /* SubwayBuilder.swift */; };
 		52494C1A299DEC0F002D3B64 /* SubwaySandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C19299DEC0F002D3B64 /* SubwaySandwich.swift */; };
+		52494C1D299DF5DC002D3B64 /* SingletonPatternClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C1C299DF5DC002D3B64 /* SingletonPatternClient.swift */; };
 		5298B6872990EA29003245B0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298B6862990EA29003245B0 /* main.swift */; };
 		5298B695299112F2003245B0 /* ElectronicGadgetFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298B694299112F2003245B0 /* ElectronicGadgetFactory.swift */; };
 		5298B69729911379003245B0 /* AppleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298B69629911379003245B0 /* AppleFactory.swift */; };
@@ -68,6 +69,7 @@
 		52494C15299DE8EA002D3B64 /* Sauce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sauce.swift; sourceTree = "<group>"; };
 		52494C17299DEA2B002D3B64 /* SubwayBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayBuilder.swift; sourceTree = "<group>"; };
 		52494C19299DEC0F002D3B64 /* SubwaySandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwaySandwich.swift; sourceTree = "<group>"; };
+		52494C1C299DF5DC002D3B64 /* SingletonPatternClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPatternClient.swift; sourceTree = "<group>"; };
 		5298B6832990EA29003245B0 /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		5298B6862990EA29003245B0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5298B694299112F2003245B0 /* ElectronicGadgetFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicGadgetFactory.swift; sourceTree = "<group>"; };
@@ -114,6 +116,14 @@
 				52494C19299DEC0F002D3B64 /* SubwaySandwich.swift */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		52494C1B299DF5C7002D3B64 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				52494C1C299DF5DC002D3B64 /* SingletonPatternClient.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 		5298B67A2990EA29003245B0 = {
@@ -170,6 +180,7 @@
 		5298B68F29910E90003245B0 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				52494C1B299DF5C7002D3B64 /* Singleton */,
 				52494C09299DE72F002D3B64 /* Builder */,
 				52494BFB299B965C002D3B64 /* FactoryPattern */,
 				5298B68E29910E82003245B0 /* Abstract Factory */,
@@ -248,6 +259,7 @@
 				5298B69B299113F5003245B0 /* iPhone.swift in Sources */,
 				5298B6872990EA29003245B0 /* main.swift in Sources */,
 				52494BF4299B7644002D3B64 /* PixelWatch.swift in Sources */,
+				52494C1D299DF5DC002D3B64 /* SingletonPatternClient.swift in Sources */,
 				52494C18299DEA2B002D3B64 /* SubwayBuilder.swift in Sources */,
 				52494C04299CA83E002D3B64 /* AvailableGateways.swift in Sources */,
 				52494C02299CA664002D3B64 /* StripeGateway.swift in Sources */,
