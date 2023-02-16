@@ -19,6 +19,14 @@
 		52494C04299CA83E002D3B64 /* AvailableGateways.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C03299CA83E002D3B64 /* AvailableGateways.swift */; };
 		52494C06299CAC9F002D3B64 /* PaymentGateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C05299CAC9F002D3B64 /* PaymentGateable.swift */; };
 		52494C08299CAF31002D3B64 /* PaypalGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C07299CAF31002D3B64 /* PaypalGateway.swift */; };
+		52494C0B299DE73C002D3B64 /* Bread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C0A299DE73C002D3B64 /* Bread.swift */; };
+		52494C0D299DE792002D3B64 /* Meat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C0C299DE792002D3B64 /* Meat.swift */; };
+		52494C0F299DE7F0002D3B64 /* BuilderPatternClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C0E299DE7F0002D3B64 /* BuilderPatternClient.swift */; };
+		52494C12299DE877002D3B64 /* Cheese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C11299DE877002D3B64 /* Cheese.swift */; };
+		52494C14299DE8AD002D3B64 /* Vegitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C13299DE8AD002D3B64 /* Vegitable.swift */; };
+		52494C16299DE8EA002D3B64 /* Sauce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C15299DE8EA002D3B64 /* Sauce.swift */; };
+		52494C18299DEA2B002D3B64 /* SubwayBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C17299DEA2B002D3B64 /* SubwayBuilder.swift */; };
+		52494C1A299DEC0F002D3B64 /* SubwaySandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52494C19299DEC0F002D3B64 /* SubwaySandwich.swift */; };
 		5298B6872990EA29003245B0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298B6862990EA29003245B0 /* main.swift */; };
 		5298B695299112F2003245B0 /* ElectronicGadgetFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298B694299112F2003245B0 /* ElectronicGadgetFactory.swift */; };
 		5298B69729911379003245B0 /* AppleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298B69629911379003245B0 /* AppleFactory.swift */; };
@@ -52,6 +60,14 @@
 		52494C03299CA83E002D3B64 /* AvailableGateways.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableGateways.swift; sourceTree = "<group>"; };
 		52494C05299CAC9F002D3B64 /* PaymentGateable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentGateable.swift; sourceTree = "<group>"; };
 		52494C07299CAF31002D3B64 /* PaypalGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaypalGateway.swift; sourceTree = "<group>"; };
+		52494C0A299DE73C002D3B64 /* Bread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bread.swift; sourceTree = "<group>"; };
+		52494C0C299DE792002D3B64 /* Meat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meat.swift; sourceTree = "<group>"; };
+		52494C0E299DE7F0002D3B64 /* BuilderPatternClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPatternClient.swift; sourceTree = "<group>"; };
+		52494C11299DE877002D3B64 /* Cheese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheese.swift; sourceTree = "<group>"; };
+		52494C13299DE8AD002D3B64 /* Vegitable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegitable.swift; sourceTree = "<group>"; };
+		52494C15299DE8EA002D3B64 /* Sauce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sauce.swift; sourceTree = "<group>"; };
+		52494C17299DEA2B002D3B64 /* SubwayBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayBuilder.swift; sourceTree = "<group>"; };
+		52494C19299DEC0F002D3B64 /* SubwaySandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwaySandwich.swift; sourceTree = "<group>"; };
 		5298B6832990EA29003245B0 /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		5298B6862990EA29003245B0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5298B694299112F2003245B0 /* ElectronicGadgetFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicGadgetFactory.swift; sourceTree = "<group>"; };
@@ -83,6 +99,21 @@
 				52494C03299CA83E002D3B64 /* AvailableGateways.swift */,
 			);
 			path = FactoryPattern;
+			sourceTree = "<group>";
+		};
+		52494C09299DE72F002D3B64 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				52494C0A299DE73C002D3B64 /* Bread.swift */,
+				52494C0C299DE792002D3B64 /* Meat.swift */,
+				52494C0E299DE7F0002D3B64 /* BuilderPatternClient.swift */,
+				52494C11299DE877002D3B64 /* Cheese.swift */,
+				52494C13299DE8AD002D3B64 /* Vegitable.swift */,
+				52494C15299DE8EA002D3B64 /* Sauce.swift */,
+				52494C17299DEA2B002D3B64 /* SubwayBuilder.swift */,
+				52494C19299DEC0F002D3B64 /* SubwaySandwich.swift */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 		5298B67A2990EA29003245B0 = {
@@ -139,6 +170,7 @@
 		5298B68F29910E90003245B0 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				52494C09299DE72F002D3B64 /* Builder */,
 				52494BFB299B965C002D3B64 /* FactoryPattern */,
 				5298B68E29910E82003245B0 /* Abstract Factory */,
 			);
@@ -203,18 +235,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52494C0F299DE7F0002D3B64 /* BuilderPatternClient.swift in Sources */,
+				52494C0D299DE792002D3B64 /* Meat.swift in Sources */,
 				5298B699299113AB003245B0 /* Phone.swift in Sources */,
+				52494C1A299DEC0F002D3B64 /* SubwaySandwich.swift in Sources */,
 				52494BFA299B956B002D3B64 /* AbstractFactoryClient.swift in Sources */,
+				52494C0B299DE73C002D3B64 /* Bread.swift in Sources */,
 				52494BF2299B7545002D3B64 /* SmartWatch.swift in Sources */,
+				52494C12299DE877002D3B64 /* Cheese.swift in Sources */,
 				5298B69729911379003245B0 /* AppleFactory.swift in Sources */,
 				52494BF6299B7653002D3B64 /* GooglePixel.swift in Sources */,
 				5298B69B299113F5003245B0 /* iPhone.swift in Sources */,
 				5298B6872990EA29003245B0 /* main.swift in Sources */,
 				52494BF4299B7644002D3B64 /* PixelWatch.swift in Sources */,
+				52494C18299DEA2B002D3B64 /* SubwayBuilder.swift in Sources */,
 				52494C04299CA83E002D3B64 /* AvailableGateways.swift in Sources */,
 				52494C02299CA664002D3B64 /* StripeGateway.swift in Sources */,
 				52494BFD299B966D002D3B64 /* FactoryPatternClient.swift in Sources */,
+				52494C16299DE8EA002D3B64 /* Sauce.swift in Sources */,
 				5298B69D29911492003245B0 /* Preference.swift in Sources */,
+				52494C14299DE8AD002D3B64 /* Vegitable.swift in Sources */,
 				52494BF8299B769E002D3B64 /* GoogleFactory.swift in Sources */,
 				52494C06299CAC9F002D3B64 /* PaymentGateable.swift in Sources */,
 				52494C00299CA60B002D3B64 /* PaymentGatewayFactory.swift in Sources */,
