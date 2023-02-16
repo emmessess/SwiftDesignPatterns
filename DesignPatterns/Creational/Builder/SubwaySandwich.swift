@@ -16,7 +16,7 @@ public struct SubwaySandwich{
     func enjoyMeal() {
         print("Please enjoy your \(bread) Subway with \(meat)")
         if !vegitables.isEmpty{
-            print("Vigitables added: ")
+            print("Vegitables added: ")
             for vegitable in vegitables{
                 print(vegitable)
             }
